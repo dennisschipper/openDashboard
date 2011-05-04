@@ -156,6 +156,35 @@ H3, H4, H5 {
 
 
 
+/** Pagination **/
+
+DIV.pagination {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+DIV.pagination UL, DIV.pagination UL LI {
+	display: inline;
+}
+
+DIV.pagination UL LI A {
+	margin: 0px 5px;
+	padding: 2px 8px;
+	background: #e0e0e0;
+}
+
+DIV.pagination UL LI A:hover {
+	
+	border: none;
+}
+
+.pagination_active A {
+	color: #c0c0c0;
+	background: none;
+	cursor: default;
+}
+
+
 /** Messages **/
 
 .message {
@@ -319,7 +348,7 @@ H3, H4, H5 {
 	margin-bottom: 0px;
 }
 
-.form_submit INPUT {
+.form_submit > INPUT {
 	border: 0px;
 	padding: 12px 20px;
 	font-family: 'Droid Sans';
@@ -335,8 +364,6 @@ H3, H4, H5 {
 	
 }
 
-
-
 .form_box_dropdown OPTION {
 	margin: 5px;
 }
@@ -347,9 +374,6 @@ H3, H4, H5 {
 	
 
 }
-
-
-
 
 .form_radios LABEL, .form_checkboxes LABEL {
 	margin-right: 20px;
@@ -365,17 +389,6 @@ H3, H4, H5 {
 	margin-right: 4px;
 	margin-right: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 INPUT, TEXTAREA {
 	font-family: 'Droid Sans';
