@@ -88,7 +88,6 @@ DIV#body {
 	width: 960px;
 	margin: 0px auto;
 	background: #fff;
-	padding-bottom: 20px;
 }
 
 DIV#body SECTION#content {
@@ -193,6 +192,40 @@ UL LI UL LI {
 	margin-right: 5px;
 	background: #eaeaea;
 	padding: 3px 8px;
+}
+
+
+
+
+
+/** Generic forms **/
+
+FORM {
+	margin-top: 50px;
+	
+	padding: 15px;
+	border: 1px solid #cecece;
+}
+
+FORM DIV {
+	margin-bottom: 15px;
+}
+
+LABEL {
+	width: 250px;
+}
+
+LABEL INPUT {
+	width: 250px;
+	font-size: 16px;
+	padding: 7px 15px;
+}
+
+.form_submit {
+	margin-top: 15px;
+	padding: 7px 15px;
+	display: block;
+	
 }
 
 
