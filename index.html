@@ -12,17 +12,13 @@
 </head>
 <body>
 
-<div id="container">
-	
-	
-	
 	
 	
 	
 	<header>
 		
 		<div>
-			<div class="user_info">openDashboard Demo &raquo; <a href="#">name@mailservice.com</a></div>
+			<div class="user_info">openDashboard Demo &raquo; <a href="#" class="email">name@mailservice.com</a></div>
 			
 			<div id="settings"><a href="#">Settings</a> | <a href="#">Log Out</a></div>
 		</div>
@@ -68,7 +64,7 @@
 				
 				<li><a href="#">Change user</a>
 					<ul>
-						<li><a href="#">Tree option</a></li>
+						<li class="focus"><a href="#">Tree option</a></li>
 						<li><a href="#">Yet another option</a></li>
 					</ul>
 				</li>
@@ -81,16 +77,18 @@
 		
 		<section id="content">
 		
-			<h1>Open dashboard</h1>
+		
+			<article>
+				<h1>Open dashboard</h1>
 			
-			<p>The rest of his body was so streaked, and spotted, and marbled with the same shrouded hue, that, in the end, he had gained his distinctive appellation of the White Whale; a name, indeed, literally justified by his vivid aspect, when seen gliding at high noon through a dark blue sea, leaving a milky-way wake of creamy foam, all spangled with golden gleamings.</p>
-			
+				<p>The rest of his body was so streaked, and spotted, and marbled with the same shrouded hue, that, in the end, he had gained his distinctive appellation of the White Whale; a name, indeed, literally justified by his vivid aspect, when seen gliding at high noon through a dark blue sea, leaving a milky-way wake of creamy foam, all spangled with golden gleamings.</p>
+			</article>
 		
 		
-			<div class="generic_content">
+			<article class="generic_content">
 				<h1>This is a box containing some generic content</h1>
 				<p>And so it turned out; Mr. Hosea Hussey being from home, but leaving Mrs. Hussey entirely competent to attend to all his affairs. Upon making known our desires for a supper and a bed.</p>
-			</div>
+			</article>
 		
 		
 		
@@ -112,21 +110,40 @@
 		
 		
 		
-			<div class="notification success">
-				<span>This is a message confirming something!</span>
-			</div>
 		
 		
-			<div class="notification error">
-				<span>Oh no! Something happened that shouldn't have!</span>
-			</div>
 		
-			<div class="notification warning">
-				<span>Warning! Warning!</span>
-			</div>
+			<section class="notifications">
+				
+				<div class="notification success">
+					<span>This is a message confirming something!</span>
+				</div>
+			
+			
+				<div class="notification error">
+					<span>Oh no! Something happened that shouldn't have!</span>
+				</div>
+			
+				<div class="notification warning">
+					<span>Warning! Warning!</span>
+				</div>
+				
+			</section>
 		
-		
-			<div class="tabular_data">
+
+
+
+
+
+
+
+
+
+
+			<section class="tabular_data">
+				
+				<h1>It's simple, we kill the batman</h1>
+				
 				<table>
 					<thead>
 						<tr>
@@ -138,20 +155,28 @@
 					</thead>
 					
 					<tr>
-						<td>Johnny Appleseed</td>
+						<td class="focus">Johnny Appleseed</td>
+						<td>25/5/2010</td>
+						<td>Options</td>
+						<td>Save</td>
+					</tr>
+					
+					<tr class="alt">
+						<td class="focus">Jane Appleseed</td>
 						<td>25/5/2010</td>
 						<td>Options</td>
 						<td>Save</td>
 					</tr>
 					
 					<tr>
-						<td>Johnny Appleseed</td>
+						<td class="focus">The Batman</td>
 						<td>25/5/2010</td>
 						<td>Options</td>
 						<td>Save</td>
 					</tr>
 				</table>
-			</div>
+				
+			</section>
 		
 		
 		
@@ -179,45 +204,11 @@
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		</section>
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		<div class="clear"></div>
-		
-		
-		
-		
-
 		
 		
 		
@@ -226,19 +217,17 @@
 
 
 
-		<footer>
-			<nav>
-				<ul>
-					<li class="active"><a href="#">Main page</a></li>
-					<li><a href="#">Updates</a></li>
-					<li><a href="#">Team members</a></li>
-				</ul>
-			</nav>
-		</footer>
+	<footer>
+		<nav>
+			<ul>
+				<li class="active"><a href="#">Main page</a></li>
+				<li><a href="#">Updates</a></li>
+				<li><a href="#">Team members</a></li>
+			</ul>
+		</nav>
+	</footer>
 
 
-
-</div>
 
 
 </body>

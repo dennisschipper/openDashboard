@@ -13,10 +13,13 @@ menu, footer, header, nav, section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 
 
-
+#container {
+	width: 100%;
+}
 
 BODY {
 	background: url('http://www.getopendashboard.com/demo/img/demo_bg.jpg') center top;
+	background-attachment: fixed;
     font-family: 'Droid Sans', helvetica, verdana, sans-serif;
 	font-size: 0.8em;
     color: #202020;
@@ -27,6 +30,10 @@ BODY {
 A {
 	color: #909090;
 	text-decoration: none;
+}
+
+A:hover {
+	text-decoration: underline;
 }
 
 P {
@@ -40,7 +47,7 @@ P {
 
 
 HEADER {
-    background: url('http://www.getopendashboard.com/demo/img/header_bg.jpg');
+    background: url('http://www.getopendashboard.com/demo/img/header_bg.jpg') fixed;
 	border-bottom: 1px solid #BEBEBE;
 	color: #828282;
 	height: 58px;
@@ -56,6 +63,10 @@ HEADER A {
 	color: #828282;
 }
 
+HEADER A.email {
+	color: #cecece;
+}
+
 HEADER .user_info {
 	float: left;
 	margin-left: 25px;
@@ -68,7 +79,9 @@ HEADER #settings {
 }
 
 
-
+SECTION, ARTICLE {
+	margin-bottom: 20px;
+}
 
 
 H1 {
@@ -169,7 +182,7 @@ UL LI UL LI {
 }
 
 .generic_content H1 {
-	font-weight: normal;
+	
 }
 
 
@@ -267,19 +280,31 @@ LABEL INPUT {
 /** tabular data **/
 
 TABLE {
+	border-collapse: collapse;
+	border-spacing: 0;
 	width: 100%;
+	border: 1px solid #cecece;
+	color: #4b4b4b;
 }
 
-TABLE {
-	border-right: 1px solid #D2D2D2;
-	border-bottom: 1px solid #D2D2D2;
+THEAD {
+	background: #eeeeee;
 }
+
+THEAD TR TD {
+	padding: 15px 15px;
+}
+
+
+
 
 TD {
-	border-bottom: 1px solid #D2D2D2;
+	padding: 5px 15px;
 }
 
-
+.alt {
+	background: #eeeeee;
+}
 
 
 
@@ -385,10 +410,9 @@ FOOTER UL LI A {
 
 
 
-
-
-
-
+.focus {
+	font-weight: bold;
+}
 
 
 
