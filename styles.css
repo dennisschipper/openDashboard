@@ -83,6 +83,10 @@ SECTION, ARTICLE {
 	margin-bottom: 20px;
 }
 
+SECTION#content { /** redo this **/
+	margin-bottom: 0px;
+}
+
 
 H1 {
 	font-size: 16px;
@@ -341,24 +345,38 @@ FOOTER UL LI A {
 
 
 
-@media screen and (max-device-width: 1024px) {
+@media screen and (max-width: 1024px) {
+	
+	BODY {
+		font-size: 1em;
+	}
 
 	HEADER > DIV { /** make it take up all the space for small devices **/
-		width: 740px;
-		color: red;
+		width: 100%;
 	}
 	
 	DIV#body {
-		width: 740px;;
+		width: auto;
+		margin: 0px 20px;
 	}
 	
+	#sidebar {
+		
+	}
+	
+
+	
 	DIV#body SECTION#content {
-		width: 400px;
-		float: left;
+		float: none;
+		width: auto;
+	}
+
+	#content {
+		padding-left: 250px !important;
 	}
 
 	FOOTER {
-		width: 740px;
+		width: auto;
 	}
 
 
