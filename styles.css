@@ -215,13 +215,10 @@ UL LI UL LI {
 
 
 
-/** Generic forms **/
+/** Generic forms - We generaly leave forms alone besides some minor cosmetic stuff **/
 
 FORM {
-	margin-top: 50px;
 	
-	padding: 15px;
-	border: 1px solid #cecece;
 }
 
 FORM DIV {
@@ -229,19 +226,32 @@ FORM DIV {
 }
 
 LABEL {
-	width: 250px;
 }
 
-LABEL INPUT {
+LABEL INPUT, SELECT, TEXTAREA {
+    font-family: 'Droid Sans', helvetica, verdana, sans-serif;
 	width: 250px;
 	font-size: 16px;
 	padding: 7px 15px;
 }
 
+
+
+SELECT {
+	width: 280px;
+}
+
+TEXTAREA {
+	width: 450px;
+	height: 100px;
+	padding: 15px;
+}
+
+
 .form_submit {
 	margin-top: 15px;
 	padding: 7px 15px;
-	display: block;
+	cursor: pointer;
 	
 }
 
