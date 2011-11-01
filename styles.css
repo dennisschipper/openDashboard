@@ -47,10 +47,9 @@ P {
 
 
 HEADER {
-    background: url('http://www.getopendashboard.com/demo/img/header_bg.jpg') fixed;
-	border-bottom: 1px solid #BEBEBE;
+    background: url('./img/header_bg.png') fixed;
 	color: #828282;
-	height: 58px;
+	height: 69px;
 	line-height: 58px;
 }
 
