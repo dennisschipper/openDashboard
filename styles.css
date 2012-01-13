@@ -69,3 +69,36 @@ header ul li a {
 	font-size: 1.4em;
 }
 
+
+
+
+
+
+
+
+
+.notification {
+	padding: 20px;
+	text-align: center;
+	color: #EFEFEF;
+	font-size: 1.4em;
+	text-shadow: 1px 1px 1px #000;
+	font-weight: 100;
+}
+
+.error {
+	background: #e14722;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
