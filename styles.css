@@ -17,431 +17,55 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 	width: 100%;
 }
 
-BODY {
-	background: url('http://www.getopendashboard.com/demo/img/demo_bg.jpg') center top;
-	background-attachment: fixed;
-    font-family: 'Droid Sans', helvetica, verdana, sans-serif;
-	font-size: 0.8em;
-    color: #202020;
-	line-height: 2em;
+h1 {
+	font-weight: normal;
 }
 
-
-A {
-	color: #909090;
+a {
+	color: #3e3e3e;
 	text-decoration: none;
 }
 
-A:hover {
-	text-decoration: underline;
+ul, li {
+	display: inline;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
 }
 
-P {
-	margin-bottom: 1em;
-}
-
-
-
-
-/** header settings **/
-
-
-HEADER {
-    background: url('./img/header_bg.png') fixed;
-	color: #828282;
-	height: 69px;
-	line-height: 58px;
-}
-
-HEADER > DIV {
-	width: 960px;
-	margin: 0 auto;
-}
-
-HEADER A {
-	color: #828282;
-}
-
-HEADER A.email {
-	color: #cecece;
-}
-
-HEADER .user_info {
-	float: left;
-	margin-left: 25px;
+hr {
+	margin: 30px -20px;
+	border-bottom: 1px solid #cecece;
 }
 
 
-HEADER #settings {
-	margin-right: 25px;
-	float: right;
-}
-
-
-SECTION, ARTICLE {
-	margin-bottom: 20px;
-}
-
-SECTION#content { /** redo this **/
-	margin-bottom: 0px;
-}
-
-
-H1 {
-	font-size: 16px;
-	margin-bottom: 15px;
-}
-
-HR {
-	border-bottom: 1px solid #e8e8e8;
-	margin-top: 15px;
-	margin-bottom: 15px;
+BODY {
+	background-attachment: fixed;
+	font-family: helvetica, verdana, sans-serif;
+	font-size: 0.8em;
+	color: #3d3d3d;
+	background: #f6f6f6 url('./img/bg.png');
+	line-height: 2em;
+	padding: 20px;
 }
 
 
 
-DIV#body {
-	width: 960px;
-	margin: 0px auto;
+header {
+	padding: 50px;
 	background: #fff;
 }
 
-DIV#body SECTION#content {
-	float: left;
-	width: 640px;
-	padding: 20px 40px;
+header h1 {
+	margin: 0px 20px;
+	font-size: 2em;
 }
 
-
-
-NAV {
-	padding: 20px;
+header ul li {
+	margin: 0px 20px;
 }
 
-NAV UL {
-	margin: 0px;
-	padding: 0px;
-	margin-left: 20px;
+header ul li a {
+	font-size: 1.4em;
 }
-
-NAV UL LI {
-	display: inline;
-	margin-right: 40px;
-}
-
-.active A {
-	color: #8cc518;
-	font-weight: bold;
-}
-
-#breadcrumbs {
-	margin-left: 20px;
-}
-
-
-
-/** sidebar styles **/
-
-#sidebar {
-	padding: 20px;
-	padding-left: 40px;
-	float: left;
-	width: 169px;
-	border-right: 1px solid #e8e8e8;
-}
-
-
-UL {
-	margin-left: 5px;
-}
-
-UL LI {
-	list-style: none;
-}
-
-UL LI A {
-	color: #7B7B7B;
-	text-decoration: none;
-}
-
-
-UL LI UL {
-	margin-left: 25px;
-}
-
-UL LI UL LI {
-	list-style: circle;
-}
-
-
-
-
-
-
-.generic_content {
-	background: #f9f9f9;
-	border: 1px solid #e9e9e9;
-	padding: 20px;
-}
-
-.generic_content H1 {
-	
-}
-
-
-
-.clear {
-	clear: both;
-}
-
-
-/** Pagination **/
-
-.pagination {
-	margin: 10px 0px;
-	text-align: center;
-}
-
-.pagination UL LI A {
-	font-size: 0.8em;
-	margin-left: 5px;
-	margin-right: 5px;
-	background: #eaeaea;
-	padding: 3px 8px;
-}
-
-
-
-
-
-/** Generic forms - We generaly leave forms alone besides some minor cosmetic stuff **/
-
-FORM {
-	
-}
-
-FORM DIV {
-	margin-bottom: 15px;
-}
-
-LABEL {
-}
-
-LABEL INPUT, SELECT, TEXTAREA {
-    font-family: 'Droid Sans', helvetica, verdana, sans-serif;
-	width: 250px;
-	font-size: 16px;
-	padding: 7px 15px;
-}
-
-
-
-SELECT {
-	width: 280px;
-}
-
-TEXTAREA {
-	width: 450px;
-	height: 100px;
-	padding: 15px;
-}
-
-
-.form_submit {
-	margin-top: 15px;
-	padding: 7px 15px;
-	cursor: pointer;
-	
-}
-
-
-
-
-
-
-
-/** Notifications **/
-
-.notification {
-	font-weight: bold;
-	background: #f7f7f7;
-	margin: 10px 0px;
-	padding: 20px 15px;
-	border-right: 1px solid #D2D2D2;
-	border-bottom: 1px solid #D2D2D2;
-	border-left: 25px solid #cecece;
-}
-
-.success {
-	color: #84A856;
-	border-left: 25px solid #84A856;
-}
-
-.error {
-	color: #B7260E;
-	border-left: 25px solid #B7260E;
-}
-
-.warning {
-	color: #D17806;
-	border-left: 25px solid #D17806;
-}
-
-
-
-
-/** tabular data **/
-
-TABLE {
-	border-collapse: collapse;
-	border-spacing: 0;
-	width: 100%;
-	border: 1px solid #cecece;
-	color: #4b4b4b;
-}
-
-THEAD {
-	background: #eeeeee;
-}
-
-THEAD TR TD {
-	padding: 15px 15px;
-}
-
-
-
-
-TD {
-	padding: 5px 15px;
-}
-
-.alt {
-	background: #eeeeee;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-FOOTER {
-	width: 960px;
-	margin: 0 auto;
-	background: #1A1B1A;
-	margin-bottom: 60px;
-}
-
-FOOTER UL LI A {
-	color: #B7B7B7;
-}
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1024px) {
-	
-	BODY {
-		font-size: 1em;
-	}
-
-	HEADER > DIV { /** make it take up all the space for small devices **/
-		width: 100%;
-	}
-	
-	DIV#body {
-		width: auto;
-		margin: 0px 20px;
-	}
-	
-	#sidebar {
-		
-	}
-	
-
-	
-	DIV#body SECTION#content {
-		float: none;
-		width: auto;
-	}
-
-	#content {
-		padding-left: 250px !important;
-	}
-
-	FOOTER {
-		width: auto;
-	}
-
-
-}
-
-
-
-
-@media screen and (max-width: 640px) {
-
-
-	BODY {
-		font-size: 1em;
-	}
-
-
-	HEADER > DIV { /** even smaller **/
-		width: 100%;
-		color: green;
-	}
-
-	DIV#body {
-		width: auto;
-		margin: 0px 20px;
-	}
-
-	FOOTER {
-		width: auto;
-		margin: 0px 20px;
-	}
-
-	#sidebar, DIV#body SECTION#content {
-		float: none;
-		border-right: none;
-		width: auto;
-	}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.focus {
-	font-weight: bold;
-}
-
-
-
-
 
