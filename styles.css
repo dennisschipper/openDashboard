@@ -219,3 +219,36 @@ article.user span {
 
 
 
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+header {
+	text-align: center;
+}
+
+header ul, header ul li {
+	display: block;
+	width: 100%;
+	text-align: center;
+	float: none;
+}
+	
+.popupnotification {
+	display: none;
+}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
