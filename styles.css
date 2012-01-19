@@ -194,7 +194,7 @@ a.button {
 
 /* Forms */
 
-form * {
+form input, form textarea {
 	font-family: helvetica, verdana, sans-serif;
 	font-size: 1em;
 	color: #676767;
@@ -206,13 +206,16 @@ label {
 	margin-bottom: 10px;
 }
 
-input {
+input, textarea {
 	border: 1px solid #cecece;
 	padding: 10px 8px;
 	border-radius: 2px;
 	width: 260px;
 }
 
+textarea {
+	width: 450px;
+}
 
 
 
@@ -257,8 +260,31 @@ header ul, header ul li {
 .popupnotification {
 	display: none;
 }
-	
-	
+
+/* forms */
+
+header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+label {
+	margin-right: 20px;
+}
+
+input, textarea {
+	width: 100%;
+	margin-right: 20px;
+}
+
+textarea {
+	width: 100%;
+}
+
+
+
+
+
 }
 
 
