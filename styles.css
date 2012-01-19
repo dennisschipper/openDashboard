@@ -263,6 +263,10 @@ header ul, header ul li {
 
 /* forms */
 
+.notification {
+	font-size: 1em;
+}
+
 header {
 	padding-top: 20px;
 	padding-bottom: 20px;
