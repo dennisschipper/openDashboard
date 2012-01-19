@@ -181,15 +181,37 @@ a.button {
 
 .success {
 	background: #469525;
+	display: none;
 }
 
 .alert {
 	background: #E2B466;
+	display: none;
 }
 
 
 
 
+/* Forms */
+
+form * {
+	font-family: helvetica, verdana, sans-serif;
+	font-size: 1em;
+	color: #676767;
+}
+
+label {
+	display: block;
+	text-indent: 10px;
+	margin-bottom: 10px;
+}
+
+input {
+	border: 1px solid #cecece;
+	padding: 10px 8px;
+	border-radius: 2px;
+	width: 260px;
+}
 
 
 
