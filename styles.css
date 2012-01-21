@@ -227,8 +227,17 @@ input.button {
 	font-weight: lighter;
 }
 
+input.button:hover {
+	background: #5D5D5D;
+}
+
+
 input.red {
 	background: #e14722;
+}
+
+input.red:hover {
+	background: #F54B23;
 }
 
 textarea {
