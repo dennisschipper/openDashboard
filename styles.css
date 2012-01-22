@@ -244,6 +244,48 @@ textarea {
 	width: 450px;
 }
 
+/* Inner navigation */
+
+nav.inner_navigation {
+	border-bottom: 1px solid #cecece;
+	margin-bottom: 2em;
+	padding-bottom: 1em;
+	font-size: 0.85em;
+}
+
+nav.inner_navigation ul {
+}
+
+nav.inner_navigation ul li {
+	margin-right: 1em;
+}
+
+nav.inner_navigation ul li a {
+	color: #4A4A4A;
+	
+}
+
+
+
+
+
+/* Sidebar */
+
+aside#sidebar {
+	float: left;
+	width: 15%;
+	margin-right: 4%;
+}
+
+aside#sidebar ul, aside#sidebar li{
+	display: block;
+}
+
+aside#sidebar {
+	border-right: 1px solid #cecece;
+}
+
+
 
 
 /* Log */
@@ -255,7 +297,7 @@ textarea {
 
 #log article div.content {
 	float: right;
-	width: 85%;
+	width: 80%;
 }
 
 #log article .date {
@@ -349,6 +391,16 @@ input.button {
 #log article .date {
 	line-height: 1.1em;
 	margin-top: 1em;
+}
+
+
+
+aside#sidebar {
+	width: 100%;
+	float: none;
+	text-align: center;
+	border-right: none;
+	margin-bottom: 2em;
 }
 
 
