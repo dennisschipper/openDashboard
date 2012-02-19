@@ -198,10 +198,11 @@ form {
 	margin-bottom: 10px;
 }
 
-form input, form textarea {
+form input[type="text"] , form textarea[type="text"]  {
 	font-family: helvetica, verdana, sans-serif;
 	font-size: 1em;
 	color: #676767;
+		border-radius: 4px;
 }
 
 label {
@@ -213,7 +214,7 @@ label {
 input, textarea {
 	border: 1px solid #cecece;
 	padding: 10px 8px;
-	border-radius: 2px;
+	border-radius: 4px;
 	width: 260px;
 }
 
@@ -393,12 +394,12 @@ input.button {
 	margin-top: 1em;
 }
 
-
+/* Sidebar */
 
 aside#sidebar {
 	width: 100%;
 	float: none;
-	text-align: center;
+	text-align: left;
 	border-right: none;
 	margin-bottom: 2em;
 }
